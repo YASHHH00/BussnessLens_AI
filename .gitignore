@@ -1,8 +1,13 @@
 # Python
 BusinessLensAI_Backend/.venv/
+BusinessLensAI_Backend/.env
 BusinessLensAI_Backend/__pycache__/
 BusinessLensAI_Backend/.pytest_cache/
+
+# Python cache (global)
+**/__pycache__/
 *.pyc
+.pytest_cache/
 
 # Node
 BusinessLensAI_Frontend/node_modules/
@@ -10,7 +15,7 @@ BusinessLensAI_Frontend/dist/
 
 # Environment
 .env
-*.env
+.env.*
 
 # VS Code
 .vscode/
@@ -18,3 +23,6 @@ BusinessLensAI_Frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
