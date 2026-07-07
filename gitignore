@@ -1,0 +1,20 @@
+# Python
+BusinessLensAI_Backend/.venv/
+BusinessLensAI_Backend/__pycache__/
+BusinessLensAI_Backend/.pytest_cache/
+*.pyc
+
+# Node
+BusinessLensAI_Frontend/node_modules/
+BusinessLensAI_Frontend/dist/
+
+# Environment
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
